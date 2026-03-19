@@ -10,12 +10,9 @@ First, install the dependencies:
 npm install
 ```
 
-Start a development server:
+Start a development server (you can omit `-- --open` if you don't want it to open in a new tab automatically):
 
 ```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
 
