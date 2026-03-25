@@ -6,7 +6,7 @@
 <header>
 	<Container>
 		<div>
-			<a href={resolve('/')}> Home </a>
+			<a href={resolve('/')}> Holding Space Collective </a>
 			<nav>
 				<ul>
 					<li>
@@ -29,6 +29,7 @@
 <style>
 	header {
 		align-items: center;
+		background-color: #eeeeee;
 		display: flex;
 		justify-content: space-between;
 		min-height: 4rem;
