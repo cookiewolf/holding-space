@@ -4,19 +4,19 @@
 
 <main>
 	<div class="hero">
-		<h1>Holding Space</h1>
+		<h1>Holding Space for Change</h1>
 	</div>
 
 	<div class="programmes">
 		<div class="programme">
-			<h2>Short Series</h2>
-			<p>Short series description</p>
-			<a href={resolve('/short-series')}>Find out more</a>
+			<h2>Holding Space for Change</h2>
+			<p>Year series description</p>
+			<a href={resolve('/holding-space-for-change')}>Find out more</a>
 		</div>
 		<div class="programme">
-			<h2>Year Series</h2>
-			<p>Year series description</p>
-			<a href={resolve('/year-series')}>Find out more</a>
+			<h2>Holding Space Short Series</h2>
+			<p>Short series description</p>
+			<a href={resolve('/holding-space-short-series')}>Find out more</a>
 		</div>
 	</div>
 </main>
@@ -35,7 +35,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;
-		margin-top: 2rem;
+		margin: 2rem 0;
 	}
 
 	h2 {
