@@ -8,7 +8,7 @@
 	</div>
 	<div>
 		<form name="holding-space-for-change" method="POST" data-netlify="true" data-sveltekit-reload>
-			<input type="hidden" name="form-name" value="contact" />
+			<input type="hidden" name="form-name" value="holding-space-for-change" />
 
 			<label>
 				What's your name and pronouns?
