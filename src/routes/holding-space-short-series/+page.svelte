@@ -1,5 +1,7 @@
 <script>
 	import Session from '../../Session.svelte';
+
+	import { resolve } from '$app/paths';
 </script>
 
 <main>
@@ -34,6 +36,9 @@
 			/>
 		</ul>
 	</div>
+	<div>
+		<a href={resolve('/holding-space-short-series/apply')}>Apply</a>
+	</div>
 </main>
 
 <style>
@@ -41,7 +46,7 @@
 		align-items: center;
 		background-color: #eeeeee;
 		display: flex;
-		height: 20rem;
+		height: 10rem;
 		justify-content: center;
 		width: 100%;
 	}

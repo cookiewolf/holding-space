@@ -6,14 +6,14 @@
 <header>
 	<Container>
 		<div>
-			<a href={resolve('/')}> Home </a>
+			<a href={resolve('/')}> Holding Space Collective </a>
 			<nav>
 				<ul>
 					<li>
-						<a href={resolve('/short-series')}>Short Series</a>
+						<a href={resolve('/holding-space-for-change')}>Holding Space For Change</a>
 					</li>
 					<li>
-						<a href={resolve('/year-series')}>Year Series</a>
+						<a href={resolve('/holding-space-short-series')}>Short Series</a>
 					</li>
 					<li>
 						<a href="https://raythespirit.com/holding-space-together" target="_blank" rel="noopener"
@@ -29,6 +29,7 @@
 <style>
 	header {
 		align-items: center;
+		background-color: #eeeeee;
 		display: flex;
 		justify-content: space-between;
 		min-height: 4rem;

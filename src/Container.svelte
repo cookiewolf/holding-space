@@ -1,10 +1,14 @@
+<script>
+	let { children } = $props();
+</script>
+
 <div>
-	<slot />
+	{@render children?.()}
 </div>
 
 <style>
 	div {
-		margin: auto;
+		margin: 0 auto;
 		max-width: 1200px;
 		padding: var(--gutter-width);
 		width: 100%;
