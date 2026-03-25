@@ -8,7 +8,7 @@
 	</div>
 	<div>
 		<form name="holding-space-for-change" method="POST" data-netlify="true" data-sveltekit-reload>
-			<input type="hidden" name="form-name" value="contact" />
+			<input type="hidden" name="form-name" value="holding-space-for-change" />
 
 			<label>
 				What's your name and pronouns?
@@ -32,82 +32,61 @@
 					(Your answer to this will not affect your eligibility for the programme)
 				</Description>
 				<label>
-					<input type="radio" name="choice" value="Solidarity2000" />
+					<input type="radio" name="contribution" value="Solidarity2000" />
 					Solidarity tier - £2,000
 				</label>
 				<br />
 
 				<label>
-					<input type="radio" name="choice" value="Standard1400" />
+					<input type="radio" name="contribution" value="Standard1400" />
 					Standard tier - £1,400
 				</label>
 				<br />
 
 				<label>
-					<input type="radio" name="choice" value="Supported800" />
+					<input type="radio" name="contribution" value="Supported800" />
 					Supported tier - £800
 				</label>
 			</fieldset>
 
 			<br />
 
-			<label for="your-identity"> How would you describe your identity?</label>
+			<label for="your-identity"> How would you describe your identity? </label>
 			<Description id="identitity-description">
 				This is an optional question but your responses will help me to understand the diversity of
 				experience and perspective present within the room, and consider what this means for
 				potential power dynamics and experiences of the space
 			</Description>
-
 			<textarea
 				rows="4"
 				id="your-identity"
 				name="your-identity"
 				aria-describedby="identitity-description"
 				placeholder="e.g. white autistic woman in her mid-40s"
-			>
-			</textarea>
-
+			></textarea>
 			<br />
 
-			<label for="your-identity"
-				>How are you hoping this programme will help you in your work or life? (Up to 300 words)
+			<label for="help-in-work-life">
+				How are you hoping this programme will help you in your work or life? (Up to 300 words)
 			</label>
 			<br />
-			<textarea
-				rows="4"
-				id="your-identity"
-				name="your-identity"
-				aria-describedby="identitity-description"
-			>
-			</textarea>
+			<textarea rows="4" id="help-in-work-life" name="help-in-work-life"></textarea>
 			<br />
 
-			<label for="your-identity"
-				>Provide an example of how you already exhibit one or more of the course principles in your
-				life or work. (Up to 300 words)</label
-			>
+			<label for="course-principles">
+				Provide an example of how you already exhibit one or more of the course principles in your
+				life or work. (Up to 300 words)
+			</label>
 			<br />
-			<textarea
-				rows="4"
-				id="your-identity"
-				name="your-identity"
-				aria-describedby="identitity-description"
-			>
-			</textarea>
+			<textarea rows="4" id="course-principles" name="course-principles"></textarea>
 			<br />
 
-			<label for="your-identity"
+			<label for="access-requirements"
 				>What might help you to learn during this programme? (any access requirements / any
 				suggestions for support or structure)</label
 			>
 			<br />
-			<textarea
-				rows="4"
-				id="your-identity"
-				name="your-identity"
-				aria-describedby="identitity-description"
-			>
-			</textarea>
+			<textarea rows="4" id="access-requirements" name="access-requirements"></textarea>
 			<br />
 
 			<button type="submit">Send</button>
