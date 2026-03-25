@@ -19,6 +19,11 @@
 			<a href={resolve('/holding-space-short-series')}>Find out more</a>
 		</div>
 	</div>
+	<div class="programme">
+		<h2>Meet the Team</h2>
+		<p>Facilitator intro</p>
+		<a href={resolve('/facilitators')}>Find out more</a>
+	</div>
 </main>
 
 <style>

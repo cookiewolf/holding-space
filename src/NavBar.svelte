@@ -10,10 +10,10 @@
 			<nav>
 				<ul>
 					<li>
-						<a href={resolve('/short-series')}>Short Series</a>
+						<a href={resolve('/holding-space-for-change')}>Holding Space For Change</a>
 					</li>
 					<li>
-						<a href={resolve('/year-series')}>Year Series</a>
+						<a href={resolve('/holding-space-short-series')}>Short Series</a>
 					</li>
 					<li>
 						<a href="https://raythespirit.com/holding-space-together" target="_blank" rel="noopener"
