@@ -57,29 +57,20 @@
 				experience and perspective present within the room, and consider what this means for
 				potential power dynamics and experiences of the space
 			</Description>
-
 			<textarea
 				rows="4"
 				id="your-identity"
 				name="your-identity"
 				aria-describedby="identitity-description"
 				placeholder="e.g. white autistic woman in her mid-40s"
-			>
-			</textarea>
-
+			></textarea>
 			<br />
 
 			<label for="your-identity"
 				>How are you hoping this programme will help you in your work or life? (Up to 300 words)
 			</label>
 			<br />
-			<textarea
-				rows="4"
-				id="your-identity"
-				name="your-identity"
-				aria-describedby="identitity-description"
-			>
-			</textarea>
+			<textarea rows="4" id="help-in-work-life" name="help-in-work-life"></textarea>
 			<br />
 
 			<label for="your-identity"
@@ -87,13 +78,7 @@
 				life or work. (Up to 300 words)</label
 			>
 			<br />
-			<textarea
-				rows="4"
-				id="your-identity"
-				name="your-identity"
-				aria-describedby="identitity-description"
-			>
-			</textarea>
+			<textarea rows="4" id="course-principles" name="course-principles"></textarea>
 			<br />
 
 			<label for="your-identity"
@@ -101,13 +86,7 @@
 				suggestions for support or structure)</label
 			>
 			<br />
-			<textarea
-				rows="4"
-				id="your-identity"
-				name="your-identity"
-				aria-describedby="identitity-description"
-			>
-			</textarea>
+			<textarea rows="4" id="access-requirements" name="access-requirements"></textarea>
 			<br />
 
 			<button type="submit">Send</button>
