@@ -17,16 +17,16 @@
 		background-color: #eeeeee;
 		display: flex;
 		justify-content: center;
+		margin-top: auto;
 		min-height: 4rem;
 		width: 100%;
-		margin-top: auto;
 	}
 
 	div {
 		align-items: center;
 		display: flex;
-		justify-content: center;
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 
 	a {

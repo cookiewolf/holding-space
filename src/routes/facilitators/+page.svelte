@@ -1,5 +1,5 @@
 <script>
-	import Session from '../../Session.svelte';
+	import Session from '../../components/Session.svelte';
 </script>
 
 <main>
