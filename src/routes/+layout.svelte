@@ -92,9 +92,39 @@
 
 	/* Global defaults */
 
+	@font-face {
+		font-family: 'PlexSans';
+		src: url('/fonts/PlexSans.ttf') format('truetype');
+		font-style: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'PlexSans';
+		src: url('/fonts/PlexSans-Italic.ttf') format('truetype');
+		font-style: italic;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'PlexSerif';
+		src: url('/fonts/PlexSerif-SemiBold.ttf') format('truetype');
+		font-weight: 600;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	@font-face {
+		font-family: 'PlexSerif';
+		src: url('/fonts/PlexSerif-SemiBoldItalic.ttf') format('truetype');
+		font-weight: 600;
+		font-style: italic;
+		font-display: swap;
+	}
+
 	:global(body) {
 		display: flex;
 		font-family:
+			PlexSans,
 			system-ui,
 			-apple-system,
 			BlinkMacSystemFont,
@@ -108,10 +138,22 @@
 			sans-serif;
 		font-size: 100%;
 		flex-direction: column;
+
+		--gutter-width: 1rem;
+
+		--orange: #ff9300;
+		--pink: #ff4989;
+		--pink-dark: #eb0052;
+		--red: #ff2500;
+		--grey: #eeeeee;
 	}
 
-	:global(body) {
-		--gutter-width: 1rem;
+	:global(body.menu-open) {
+		overflow: hidden;
+	}
+
+	:global(a) {
+		color: var(--pink-dark);
 	}
 
 	@media (min-width: 600px) {
@@ -126,6 +168,7 @@
 	:global(h4),
 	:global(h5),
 	:global(h6) {
+		font-family: PlexSerif, sans;
 		font-size: 100%;
 		font-style: normal;
 		font-weight: bold;
