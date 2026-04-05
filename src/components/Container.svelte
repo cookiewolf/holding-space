@@ -9,8 +9,8 @@
 <style>
 	div {
 		margin: 0 auto;
-		max-width: 1200px;
-		padding: var(--gutter-width);
+		max-width: 1000px;
+		padding: 0 var(--gutter-width);
 		width: 100%;
 	}
 </style>
