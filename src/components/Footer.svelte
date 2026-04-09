@@ -14,7 +14,7 @@
 <style>
 	footer {
 		align-items: center;
-		background-color: #eeeeee;
+		background-color: var(--text);
 		display: flex;
 		justify-content: center;
 		margin-top: auto;
@@ -31,5 +31,7 @@
 
 	a {
 		text-decoration: none;
+		color: #ffffff;
+		font-family: PlexSerif, serif;
 	}
 </style>
