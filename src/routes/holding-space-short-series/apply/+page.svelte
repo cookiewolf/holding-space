@@ -63,13 +63,6 @@
 			</div>
 
 			<div class="question">
-				<label for="facilitating-confidence">
-					How confident do you feel currently in facilitating group discussions?(1-5)
-				</label>
-				<textarea rows="6" id="facilitating-confidence" name="facilitating-confidence"></textarea>
-			</div>
-
-			<div class="question">
 				<label for="facilitating-confidence-expanded"> Please expand on your answer </label>
 				<textarea
 					rows="6"
@@ -87,11 +80,21 @@
 			</div>
 
 			<div class="question">
-				<label for="newsletter"
-					>Would you also like to sign up to my occasional newsletter sharing other workshops and
-					events from me or my network?
-				</label>
-				<textarea rows="6" id="newsletter" name="newsletter"></textarea>
+				<fieldset>
+					<legend
+						>Would you also like to sign up to my occasional newsletter sharing other workshops and
+						events from me or my network?</legend
+					>
+					<label>
+						<input type="radio" name="newsletter" value="Yes" />
+						Yes
+					</label>
+
+					<label>
+						<input type="radio" name="newsletter" value="No" />
+						No
+					</label>
+				</fieldset>
 			</div>
 
 			<button type="submit">Apply</button>
