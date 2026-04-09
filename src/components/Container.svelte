@@ -1,8 +1,10 @@
-<script>
-	let { children } = $props();
+<script lang="ts">
+	import type { Snippet } from 'svelte';
+
+	let { children, narrow }: { children: Snippet; narrow?: boolean } = $props();
 </script>
 
-<div>
+<div class={narrow ? 'narrow' : ''}>
 	{@render children?.()}
 </div>
 
@@ -12,5 +14,9 @@
 		max-width: 1000px;
 		padding: 0 var(--gutter-width);
 		width: 100%;
+	}
+
+	.narrow {
+		max-width: 800px;
 	}
 </style>

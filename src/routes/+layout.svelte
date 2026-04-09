@@ -13,7 +13,7 @@
 </svelte:head>
 
 <NavBar />
-<Container>
+<Container narrow>
 	{@render children?.()}
 </Container>
 <Footer />
@@ -122,6 +122,7 @@
 	}
 
 	:global(body) {
+		color: var(--text);
 		display: flex;
 		font-family:
 			PlexSans,
@@ -142,10 +143,13 @@
 		--gutter-width: 1rem;
 
 		--orange: #ff9300;
+		--orange-light: #fcd092;
 		--pink: #ff4989;
 		--pink-dark: #eb0052;
+		--pink-light: #e193af;
 		--red: #ff2500;
 		--grey: #eeeeee;
+		--text: #16161d;
 	}
 
 	:global(body.menu-open) {
