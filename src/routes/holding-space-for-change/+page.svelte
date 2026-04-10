@@ -193,7 +193,7 @@
 		<h2>Key dates</h2>
 
 		<div class="highlight">
-			<p>Fri 24 April - Application Deadline</p>
+			<p>Fri 1 May - Application Deadline</p>
 
 			<p>Fri 8 May - Successful applicants informed</p>
 
