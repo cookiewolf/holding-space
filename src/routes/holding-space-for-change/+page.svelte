@@ -184,7 +184,7 @@
 
 		<p>
 			If you cannot afford any of the above rates please contact <a
-				href="mailto:info@holdingspacetogether.co.uk">info@holdingspacetogether.co.uk</a
+				href="mailto:hello@holdingspacetogether.co.uk">hello@holdingspacetogether.co.uk</a
 			> to request a free scholarship place.
 		</p>
 
