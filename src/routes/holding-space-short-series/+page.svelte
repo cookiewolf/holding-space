@@ -7,7 +7,9 @@
 		<h1>Holding Space Series</h1>
 	</div>
 
-	<div>
+	<div class="page">
+		<a href={resolve('/holding-space-short-series/apply')} class="button-link right">Register</a>
+
 		<p>
 			The <b>Holding Space Series</b> is a simple, accessible 5 or 10 week programme for anyone who wants
 			to build their confidence and practical skills in facilitation.
@@ -58,9 +60,9 @@
 			<li>Fridays 10-12 BST from 8th May - 5th June (5 week programme)</li>
 		</ul>
 
-		<a href={resolve('/holding-space-short-series/apply')}>Register</a>
+		<a href={resolve('/holding-space-short-series/apply')} class="button-link">Register</a>
 
-		<p>
+		<p class="highlight">
 			“Participating in the Holding Space programme was an enriching and collaborative experience. I
 			felt encouraged to show up as my whole self when taking on the facilitating role, and I loved
 			that we tried out techniques in real time each week. Since finishing the course, I have used
@@ -75,11 +77,11 @@
 
 <style>
 	.hero {
+		align-items: center;
 		background-image: url('$lib/assets/short.webp');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;
-		align-items: center;
 		display: flex;
 		font-size: 3rem;
 		height: 14rem;
@@ -95,5 +97,40 @@
 		list-style: disc;
 		list-style-position: inside;
 		margin-bottom: 1rem;
+	}
+
+	.page {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.button-link {
+		align-self: center;
+		background-color: var(--pink);
+		border-radius: 4px;
+		color: var(--text);
+		display: inline-block;
+		font-size: 1.2rem;
+		margin-top: 2rem;
+		outline: 2px solid transparent;
+		padding: 0.5rem 1rem;
+		text-decoration: none;
+	}
+
+	.button-link.right {
+		align-self: flex-end;
+		margin-top: 0;
+		margin-bottom: 1rem;
+	}
+
+	.button-link:hover {
+		outline: 2px solid var(--orange-light);
+	}
+
+	.highlight {
+		background-color: var(--orange-light);
+		border-radius: 1rem;
+		margin: 1rem 0;
+		padding: 1rem;
 	}
 </style>
