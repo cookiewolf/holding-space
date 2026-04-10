@@ -43,7 +43,7 @@
 <style>
 	.hero {
 		align-items: center;
-		background-image: url('$lib/assets/banner.webp');
+		background-image: url('$lib/assets/bubbles.webp');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -93,11 +93,11 @@
 	}
 
 	.short {
-		background-image: url('$lib/assets/blue.webp');
+		background-image: url('$lib/assets/short.webp');
 	}
 
 	.year {
-		background-image: url('$lib/assets/orange.webp');
+		background-image: url('$lib/assets/programme.webp');
 	}
 
 	p + a {

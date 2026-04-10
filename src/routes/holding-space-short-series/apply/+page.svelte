@@ -104,7 +104,7 @@
 
 <style>
 	.hero {
-		background-image: url('$lib/assets/orange.webp');
+		background-image: url('$lib/assets/short.webp');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;
