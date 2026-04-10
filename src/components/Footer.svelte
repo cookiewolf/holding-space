@@ -30,7 +30,6 @@
 	}
 
 	a {
-		text-decoration: none;
 		color: #ffffff;
 		font-family: PlexSerif, serif;
 	}

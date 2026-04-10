@@ -94,7 +94,7 @@
 
 <style>
 	.hero {
-		background-image: url('$lib/assets/orange.webp');
+		background-image: url('$lib/assets/programme.webp');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;
@@ -110,6 +110,11 @@
 		.hero {
 			font-size: 3rem;
 		}
+	}
+
+	h1 {
+		text-align: center;
+		max-width: 600px;
 	}
 
 	form {

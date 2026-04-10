@@ -4,29 +4,42 @@
 
 <main>
 	<div class="hero">
-		<h1>Holding Space for Change</h1>
-	</div>
+		<h1>Holding Space Collective</h1>
 
-	<div class="highlight">
-		<p>Facilitating better conversations, deeper connection and more meaningful change</p>
+		<div class="highlight">
+			<p>Facilitating better conversations, deeper connection and more meaningful change</p>
+		</div>
 	</div>
 
 	<div class="programmes">
 		<div class="programme short">
-			<h2>Holding Space Short Series</h2>
-			<p>
-				A 5 or 10 week accessible peer learning space for those wanting to build confidence and
-				learn practical facilitation tools
-			</p>
-			<a href={resolve('/holding-space-short-series')}>Find out more</a>
+			<div class="clear">
+				<a href={resolve('/holding-space-short-series')} class="headinglink">
+					<h2>Holding Space Short Series</h2>
+				</a>
+			</div>
+			<div class="glass">
+				<p>
+					A 5 or 10 week accessible peer learning space for those wanting to build confidence and
+					learn practical facilitation tools.
+				</p>
+				<a href={resolve('/holding-space-short-series')}>Find out more</a>
+			</div>
 		</div>
+
 		<div class="programme year">
-			<h2>Holding Space for Change Programme</h2>
-			<p>
-				A deep, 9-month journey for people holding complex spaces who want to transform their
-				facilitation practice and how they lead change.
-			</p>
-			<a href={resolve('/holding-space-for-change')}>Find out more</a>
+			<div class="clear">
+				<a href={resolve('/holding-space-for-change')} class="headinglink">
+					<h2>Holding Space for Change Programme</h2>
+				</a>
+			</div>
+			<div class="glass">
+				<p>
+					A deep, 9-month journey for people holding complex spaces who want to transform their
+					facilitation practice and how they lead change.
+				</p>
+				<a href={resolve('/holding-space-for-change')}>Find out more</a>
+			</div>
 		</div>
 	</div>
 
@@ -43,23 +56,42 @@
 <style>
 	.hero {
 		align-items: center;
-		background-image: url('$lib/assets/banner.webp');
+		background-image: url('$lib/assets/bubbles.webp');
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: contain;
+		background-size: cover;
 		display: flex;
-		font-size: 3rem;
-		height: 20rem;
+		flex-direction: column;
+		font-size: 2.5rem;
+		height: 16rem;
 		justify-content: center;
+		text-align: center;
 		width: 100%;
 	}
 
+	h1 {
+		margin-top: 2rem;
+	}
+
+	@media (min-width: 600px) {
+		.hero {
+			height: 450px;
+			font-size: 3rem;
+			background-size: contain;
+		}
+
+		h1 {
+			margin-top: 8rem;
+		}
+	}
+
 	.highlight {
-		border: 1px solid var(--grey);
+		background-color: #ffffff80;
 		border-radius: 1rem;
-		margin: auto;
-		max-width: 80%;
-		padding: var(--gutter-width);
+		font-size: 1rem;
+		margin: auto 1rem;
+		max-width: 400px;
+		padding: 1rem;
 		text-align: center;
 	}
 
@@ -72,32 +104,53 @@
 	}
 
 	h2 {
-		font-size: 1.3rem;
+		font-size: 1.8rem;
 		margin: 0;
-		padding: 0;
+
 		margin-bottom: 1rem;
 	}
 
+	.headinglink {
+		color: var(--text);
+		text-decoration: none;
+	}
+
 	.programme {
-		border-radius: 1rem;
-		min-width: 0;
-		padding: 1rem;
-		width: 100%;
-		border: 1px solid var(--grey);
-		background-position: 50%;
+		background-position: 50% 50%;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 150%;
+		border-radius: 1rem;
+		border: 1px solid var(--grey);
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+		min-width: 0;
+		width: 100%;
+	}
+
+	.programme h2 {
+		padding: 1rem;
+	}
+
+	.clear {
+		height: 12rem;
+	}
+
+	.glass {
+		background-color: #ffffff80;
+		padding: 1rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 10rem;
 	}
 
 	.short {
-		background-image: url('$lib/assets/blue.webp');
+		background-image: url('$lib/assets/short.webp');
 	}
 
 	.year {
-		background-image: url('$lib/assets/orange.webp');
+		background-image: url('$lib/assets/programme.webp');
 	}
 
 	p + a {
@@ -109,12 +162,17 @@
 	}
 
 	.team {
-		background-color: #eeeeee;
 		border-radius: 1rem;
+		border: 1px solid var(--grey);
 		min-width: 0;
 		padding: 1rem;
 		width: 100%;
 		margin-bottom: 2rem;
+	}
+
+	.team > a {
+		display: inline-block;
+		margin-top: 1rem;
 	}
 
 	@media (min-width: 600px) {
