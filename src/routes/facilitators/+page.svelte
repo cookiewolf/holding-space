@@ -7,6 +7,7 @@
 	import benedicta from '$lib/assets/facilitators/benedicta.jpg';
 	import joel from '$lib/assets/facilitators/joel.jpg';
 	import elyem from '$lib/assets/facilitators/elyem.jpg';
+	import shimrit from '$lib/assets/facilitators/shimrit.jpg';
 </script>
 
 <main>
@@ -223,6 +224,44 @@
 					</div>
 				</div>
 			</li>
+
+			<li>
+				<div class="card">
+					<img src={shimrit} alt="" class="profile" />
+
+					<div>
+						<h3>Shimrit (she/her)</h3>
+
+						<p>
+							Shimrit [shimREET] is a writer, facilitator, and researcher, working across both
+							digital work and nature connection.
+						</p>
+						<p>
+							As a facilitator, she hosts circles across a variety of themes, most commonly related
+							to helping people remember themselves as of nature rather than separate, particularly
+							within urban environments. Her circles often integrate guided visualisation,
+							reflective and creative writing, story, poetry, music, and conversation as a form of
+							helping people ‘remember’ and tune into their own experiences and knowledge.
+						</p>
+						<p>
+							Shimrit is also co-author of <i
+								>Nature of Work: The new story of work for a living age (2021)</i
+							>, which blends creative writing, professional writing and research to explore what we
+							can learn from and with nature to create more supportive working environments and
+							organisations. Her own current writing takes the form of poetry, prose, and reflective
+							writing across themes such as nature connection, ancestry and heritage, creativity,
+							and how to fall in love with a dying world.
+						</p>
+
+						<a href="https://www.linkedin.com/in/shimritjanes/" class="link">
+							<img src={linkedin} alt="" class="icon" />LinkedIn</a
+						>
+						<a href="https://www.shimritjanes.com/" class="link"
+							><img src={website} alt="" class="icon" />Website</a
+						>
+					</div>
+				</div>
+			</li>
 		</ul>
 	</section>
 </main>
@@ -279,7 +318,7 @@
 	}
 
 	.profile {
-		border-radius: 1rem;
+		border-radius: calc(1rem - 0.5rem);
 		margin: auto;
 		margin-bottom: 1rem;
 		width: 16rem;
