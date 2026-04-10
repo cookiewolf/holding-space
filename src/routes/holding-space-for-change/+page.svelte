@@ -228,6 +228,12 @@
 		width: 100%;
 	}
 
+	@media (min-width: 600px) {
+		.hero {
+			font-size: 3rem;
+		}
+	}
+
 	p + p {
 		margin-top: 1rem;
 	}

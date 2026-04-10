@@ -122,6 +122,11 @@
 		}
 	}
 
+	h1 {
+		text-align: center;
+		max-width: 600px;
+	}
+
 	form {
 		background-color: var(--orange-light);
 		border-radius: var(--gutter-width);
