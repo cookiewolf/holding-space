@@ -184,7 +184,7 @@
 
 		<p>
 			If you cannot afford any of the above rates please contact <a
-				href="mailto:info@holdingspacetogether.co.uk">info@holdingspacetogether.co.uk</a
+				href="mailto:hello@holdingspacetogether.co.uk">hello@holdingspacetogether.co.uk</a
 			> to request a free scholarship place.
 		</p>
 
@@ -193,7 +193,7 @@
 		<h2>Key dates</h2>
 
 		<div class="highlight">
-			<p>Fri 24 April - Application Deadline</p>
+			<p>Fri 1 May - Application Deadline</p>
 
 			<p>Fri 8 May - Successful applicants informed</p>
 
