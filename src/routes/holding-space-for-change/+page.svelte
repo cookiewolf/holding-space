@@ -100,11 +100,11 @@
 
 		<h3>8 x 3-hour workshops</h3>
 		<p>
-			Led by six experienced facilitators and practitioners, each session is designed as a live
-			learning environment. You will experience a range of facilitation approaches; from embodied
-			practices to collective sense-making, from working with power dynamics to engaging play,
-			imagination, and nature. We will also make space to reflect on how the approaches you are
-			learning might translate into and play out differently your own settings.
+			Led by <a href={resolve('/facilitators')}>six experienced facilitators</a> and practitioners, each
+			session is designed as a live learning environment. You will experience a range of facilitation
+			approaches; from embodied practices to collective sense-making, from working with power dynamics
+			to engaging play, imagination, and nature. We will also make space to reflect on how the approaches
+			you are learning might translate into and play out differently your own settings.
 		</p>
 
 		<h3>Peer learning sessions</h3>
