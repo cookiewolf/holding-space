@@ -1,4 +1,6 @@
 <script>
+	import { resolve } from '$app/paths';
+
 	import Description from '../../../components/Description.svelte';
 </script>
 
@@ -6,6 +8,14 @@
 	<div class="hero">
 		<h1>Apply for Holding Space For Change</h1>
 	</div>
+
+	<p class="info">
+		If you’d prefer to send your responses via a voice recording or video, or if you have any
+		questions before you apply please email <a href="mailto:hello@holdingspacetogether.co.uk"
+			>hello@holdingspacetogether.co.uk</a
+		>. We’ll review applications and get in touch and confirm your place by 22nd May.
+	</p>
+
 	<div>
 		<form name="holding-space-for-change" method="POST" data-netlify="true" data-sveltekit-reload>
 			<input type="hidden" name="form-name" value="holding-space-for-change" />
@@ -73,8 +83,11 @@
 
 			<div class="question">
 				<label for="course-principles">
-					Provide an example of how you already exhibit one or more of the course principles in your
-					life or work.<br />(Up to 300 words)
+					Provide an example of how you already exhibit one or more of the <a
+						href={resolve('/facilitators')}
+						target="_blank">course principles</a
+					>
+					in your life or work.<br />(Up to 300 words)
 				</label>
 				<textarea rows="6" id="course-principles" name="course-principles"></textarea>
 			</div>
@@ -183,5 +196,13 @@
 
 	:focus-visible {
 		outline: 3px solid var(--pink);
+	}
+
+	.info {
+		margin-block: var(--gutter-width);
+		margin: auto;
+		margin-bottom: 1rem;
+		max-width: 600px;
+		padding: 1rem var(--gutter-width);
 	}
 </style>
