@@ -176,11 +176,11 @@
 					<img src={joel} alt="" class="profile" />
 
 					<div>
-						<h3>Joel Chippindale (he/him)</h3>
+						<h3>Joel (he/him)</h3>
 
 						<p>
-							Joel is an executive coach who supports talented technology leaders to accelerate
-							their development both 1-1 and in groups.
+							Joel Chippindale is an executive coach who supports talented technology leaders to
+							accelerate their development both 1-1 and in groups.
 						</p>
 						<p>
 							He is also an experienced facilitator and has spent nearly 20 years in leadership

@@ -100,11 +100,11 @@
 
 		<h3>8 x 3-hour workshops</h3>
 		<p>
-			Led by six experienced facilitators and practitioners, each session is designed as a live
-			learning environment. You will experience a range of facilitation approaches; from embodied
-			practices to collective sense-making, from working with power dynamics to engaging play,
-			imagination, and nature. We will also make space to reflect on how the approaches you are
-			learning might translate into and play out differently your own settings.
+			Led by <a href={resolve('/facilitators')}>six experienced facilitators</a> and practitioners, each
+			session is designed as a live learning environment. You will experience a range of facilitation
+			approaches; from embodied practices to collective sense-making, from working with power dynamics
+			to engaging play, imagination, and nature. We will also make space to reflect on how the approaches
+			you are learning might translate into and play out differently your own settings.
 		</p>
 
 		<h3>Peer learning sessions</h3>
@@ -184,7 +184,7 @@
 
 		<p>
 			If you cannot afford any of the above rates please contact <a
-				href="mailto:ray@and-breathe.org">ray@and-breathe.org</a
+				href="mailto:hello@holdingspacetogether.co.uk">hello@holdingspacetogether.co.uk</a
 			> to request a free scholarship place.
 		</p>
 
@@ -193,9 +193,9 @@
 		<h2>Key dates</h2>
 
 		<div class="highlight">
-			<p>Fri 1 May - Application Deadline</p>
+			<p>Fri 15 May - Application Deadline</p>
 
-			<p>Fri 8 May - Successful applicants informed</p>
+			<p>Fri 22 May - Successful applicants informed</p>
 
 			<p>June 2026 - February 2027 Programme takes place</p>
 		</div>
