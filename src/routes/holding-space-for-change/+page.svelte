@@ -193,9 +193,9 @@
 		<h2>Key dates</h2>
 
 		<div class="highlight">
-			<p>Fri 1 May - Application Deadline</p>
+			<p>Fri 15 May - Application Deadline</p>
 
-			<p>Fri 8 May - Successful applicants informed</p>
+			<p>Fri 22 May - Successful applicants informed</p>
 
 			<p>June 2026 - February 2027 Programme takes place</p>
 		</div>
