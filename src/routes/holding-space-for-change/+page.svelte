@@ -190,33 +190,27 @@
 
 		<a href={resolve('/holding-space-for-change/apply')} class="button-link">Register</a>
 
-		<h2>Key dates</h2>
-
-		<div class="highlight">
-			<p>Fri 15 May - Application Deadline</p>
-
-			<p>Fri 22 May - Successful applicants informed</p>
-
-			<p>June 2026 - February 2027 Programme takes place</p>
-		</div>
-
 		<h2>Programme dates & topics</h2>
 
 		<p>
-			All workshops take place online from 10-1pm on Fridays. Additional peer learning sessions are
-			currently scheduled to begin in August but peer groups may choose to reschedule and follow a
-			different pattern. Coaching sessions will be booked on an individual basis.
+			All workshops take place online and will be 3 hours long, with plenty of breaks. Dates for
+			each workshop will be agreed in collaboration with the final cohort.
 		</p>
+		<p>
+			Additional peer learning sessions are currently scheduled to begin in August but peer groups
+			may choose to reschedule and follow a different pattern.
+		</p>
+		<p>Coaching sessions will be booked on an individual basis.</p>
 
 		<div class="highlight">
-			<p>June 12th 2026: Laying foundations</p>
-			<p>June 26th 2026 : Relational practices for a just future</p>
-			<p>July 17th 2026: Coaching groups and action learning</p>
-			<p>Sept 11th 2026: Reframing conflict and restorative practice</p>
-			<p>Oct 9th 2026: Trauma-informed co-creation & co-design</p>
-			<p>Nov 13th 2026 : Power dynamics and positionality</p>
-			<p>Dec 11th 2026: Different approaches to decision-making</p>
-			<p>Jan 8th 2027: Imagination practice</p>
+			<p>June 2026: Laying foundations</p>
+			<p>June 2026 : Relational practices for a just future</p>
+			<p>July 2026: Coaching groups and action learning</p>
+			<p>Sept 2026: Reframing conflict and restorative practice</p>
+			<p>Oct 2026: Trauma-informed co-creation & co-design</p>
+			<p>Nov 2026 : Power dynamics and positionality</p>
+			<p>Dec 2026: Different approaches to decision-making</p>
+			<p>Jan 2027: Imagination practice</p>
 		</div>
 	</div>
 </main>
