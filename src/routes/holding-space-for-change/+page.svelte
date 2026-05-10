@@ -204,11 +204,11 @@
 
 		<div class="highlight">
 			<p>June 2026: Laying foundations</p>
-			<p>June 2026 : Relational practices for a just future</p>
+			<p>June 2026: Relational practices for a just future</p>
 			<p>July 2026: Coaching groups and action learning</p>
 			<p>Sept 2026: Reframing conflict and restorative practice</p>
 			<p>Oct 2026: Trauma-informed co-creation & co-design</p>
-			<p>Nov 2026 : Power dynamics and positionality</p>
+			<p>Nov 2026: Power dynamics and positionality</p>
 			<p>Dec 2026: Different approaches to decision-making</p>
 			<p>Jan 2027: Imagination practice</p>
 		</div>
