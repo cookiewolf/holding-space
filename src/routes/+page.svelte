@@ -20,7 +20,7 @@
 			</div>
 			<div class="glass">
 				<p>
-					A 5 or 10 week accessible peer learning space for those wanting to build confidence and
+					A 5 week accessible peer learning space for those wanting to build confidence and
 					learn practical facilitation tools.
 				</p>
 				<a href={resolve('/holding-space-short-series')}>Find out more</a>
