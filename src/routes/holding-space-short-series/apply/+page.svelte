@@ -14,13 +14,13 @@
 				<fieldset>
 					<legend>Which cohort would you like to sign up to be part of? *</legend>
 					<label>
-						<input type="radio" name="cohort" value="21st April to 23rd June" required />
-						21st April to 23rd June
+						<input type="radio" name="cohort" value="Tuesdays 12-2PM BST, 22nd September - 20th October" required />
+						Tuesdays 12-2PM BST, 22nd September - 20th October
 					</label>
 
 					<label>
-						<input type="radio" name="cohort" value="8th May - 5th June" required />
-						8th May - 5th June
+						<input type="radio" name="cohort" value="Thursdays 7-9PM GMT, 12th November - 10th December" required />
+						Thursdays 7-9PM GMT, 12th November - 10th December
 					</label>
 				</fieldset>
 			</div>
