@@ -11,7 +11,7 @@
 		<a href={resolve('/holding-space-short-series/apply')} class="button-link right">Register</a>
 
 		<p>
-			The <b>Holding Space Series</b> is a simple, accessible 5 or 10 week programme for anyone who wants
+			The <b>Holding Space Series</b> is a simple, accessible 5 week programme for anyone who wants
 			to build their confidence and practical skills in facilitation.
 		</p>
 
@@ -32,7 +32,7 @@
 		</ul>
 
 		<p>
-			Sessions take place weekly on Zoom (1 or 2 hours depending on the cohort), with additional
+			Sessions take place weekly on Zoom (2 hours), with additional
 			reflection prompts and materials shared to help you integrate your learning over time.
 		</p>
 
@@ -56,8 +56,8 @@
 		<p>The next series will kick off on the following dates:</p>
 
 		<ul>
-			<li>Tuesdays 12.30 - 1.30 BST from 21st April to 23rd June (10 week programme)</li>
-			<li>Fridays 10-12 BST from 8th May - 5th June (5 week programme)</li>
+			<li>Tuesdays 12-2PM BST, from 22nd September - 20th October </li>
+			<li>Thursdays 7-9PM GMT, from 12th November - 10th December</li>
 		</ul>
 
 		<a href={resolve('/holding-space-short-series/apply')} class="button-link">Register</a>
