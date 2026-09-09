@@ -8,7 +8,7 @@
 	</div>
 
 	<div class="page">
-		<a href={resolve('/holding-space-for-change/apply')} class="button-link right">Register</a>
+		<a href="https://docs.google.com/forms/d/e/1FAIpQLScGhZ_Ok2Zw3-HqzVrKznyOF8Cl00ob6R5aiu2J9tU5C56XOA/viewform?usp=dialog" class="button-link right">Join waitlist</a>
 
 		<p>We are living through a time of profound transition.</p>
 
@@ -188,7 +188,7 @@
 			> to request a free scholarship place.
 		</p>
 
-		<a href={resolve('/holding-space-for-change/apply')} class="button-link">Register</a>
+		<a href="https://docs.google.com/forms/d/e/1FAIpQLScGhZ_Ok2Zw3-HqzVrKznyOF8Cl00ob6R5aiu2J9tU5C56XOA/viewform?usp=dialog" class="button-link">Join waitlist</a>
 
 		<h2>Programme dates & topics</h2>
 
